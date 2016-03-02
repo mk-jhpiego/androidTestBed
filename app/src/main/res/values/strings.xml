@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DoNotPressThisButton</string>
+    <string name="action_settings">Settings</string>
+    <string name="DoNotPressText">Do not Press This</string>
+    <string name="DoNotPressEvent">youPressed</string>
+    <string name="EnterNRC">Enter you NRC</string>
+    <string name="defaultLabel">Please fill in the details below</string>
+    <string name="EnterNRCName">teditEnterNrc</string>
+    <string name="firstNameLabel">First Name</string>
+    <string name="SurnameLabel">Surname</string>
+    <string name="phoneNumber">Cell e.g. 09xx</string>
+
+
+    <string name="saveLabel">Save</string>
+    <string name="clearAndStartOver">Clear All</string>
+
+    <string name="saveMethod">saveData</string>
+    <string name="clearAndStartOverMethod">clearAndStartOver</string>
+</resources>

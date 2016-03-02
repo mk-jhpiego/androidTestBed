@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mkabila.donotpressthisbutton.DoNotEat"
+    tools:showIn="@layout/activity_do_not_eat"
+    android:id="@+id/aa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultLabel"
+        android:textStyle="bold"
+
+        android:layout_alignParentTop="true"
+        android:id="@+id/tdefaultLabel"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/firstNameLabel"
+
+        android:id="@+id/tfirstName"
+
+        android:inputType="text"
+        android:layout_below="@+id/tdefaultLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tdefaultLabel"
+        android:layout_alignEnd="@+id/tdefaultLabel"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/SurnameLabel"
+
+        android:id="@+id/tsurname"
+
+        android:inputType="text"
+        android:layout_below="@+id/tfirstName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tdefaultLabel"
+        android:layout_alignEnd="@+id/tdefaultLabel"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/EnterNRC"
+
+        android:id="@+id/tnrc"
+
+        android:inputType="text"
+        android:layout_below="@+id/tsurname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tdefaultLabel"
+        android:layout_alignEnd="@+id/tdefaultLabel"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/phoneNumber"
+
+        android:id="@+id/tphoneNumber"
+
+        android:inputType="text"
+        android:layout_below="@+id/tnrc"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tdefaultLabel"
+        android:layout_alignEnd="@+id/tdefaultLabel"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saveLabel"
+
+        android:id="@+id/btnSave"
+
+        android:layout_marginBottom="64dp"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="ProcessData" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clearAndStartOver"
+        android:id="@+id/btnClear"
+        android:layout_alignBottom="@+id/btnSave"
+        android:layout_toRightOf="@+id/btnSave"
+
+        android:onClick="clearAndStartOver" />
+
+</RelativeLayout>
