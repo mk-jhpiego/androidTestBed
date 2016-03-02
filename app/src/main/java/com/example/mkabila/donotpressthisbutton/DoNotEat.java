@@ -75,33 +75,15 @@ public class DoNotEat extends AppCompatActivity {
                         dlg.dismiss();
                     }
                 })
-                .setMessage(customMessage==""? "An error occurred trying to process the values entered":customMessage)
+                .setMessage(customMessage.equals("") ? "An error occurred trying to process the values entered" : customMessage)
                 .create().show();
     }
 
     public void clearAndStartOver(final View view){
-        ((EditText)view.findViewById(R.id.tfirstName)).setText("");
-        ((EditText)view.findViewById(R.id.tsurname)).setText("");
-        ((EditText)view.findViewById(R.id.tnrc)).setText("");
-        ((EditText)view.findViewById(R.id.tphoneNumber)).setText("");
-    }
-
-    public void saveData(View view){
-        MainClassBody currentRecord = new MainClassBody();
-        currentRecord.firstName=((EditText)findViewById(R.id.tfirstName)).getText().toString();
-        currentRecord.surName="kabila";
-        currentRecord.nrc="254785/32/4";
-        currentRecord.phoneNumber="09877554411";
-        String asJson="";
-                try{
-            asJson = currentRecord.toString();
-                    setTitle(asJson);
-
-        }catch(Exception e){
-            //we show a failed to convert dialog
-            showFailedToConvertDialog("Error converting values to Json");
-                    e.printStackTrace();
-        }
+        ((EditText)findViewById(R.id.tfirstName)).setText("");
+        ((EditText)findViewById(R.id.tsurname)).setText("");
+        ((EditText)findViewById(R.id.tnrc)).setText("");
+        ((EditText)findViewById(R.id.tphoneNumber)).setText("");
     }
 
     public void ProcessData(final View view){
@@ -136,6 +118,7 @@ public class DoNotEat extends AppCompatActivity {
                 })
                 .setMessage("Do you want to Save the information and enter a new record")
                 .create().show();
+
     }
 
     public void saveAndClearForm(){
