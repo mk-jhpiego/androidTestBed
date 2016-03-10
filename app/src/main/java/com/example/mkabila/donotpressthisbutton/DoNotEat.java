@@ -80,19 +80,19 @@ public class DoNotEat extends AppCompatActivity {
     }
 
     public void clearAndStartOver(final View view){
-        ((EditText)findViewById(R.id.tfirstName)).setText("");
-        ((EditText)findViewById(R.id.tsurname)).setText("");
-        ((EditText)findViewById(R.id.tnrc)).setText("");
-        ((EditText)findViewById(R.id.tphoneNumber)).setText("");
+//        ((EditText)findViewById(R.id.tfirstName)).setText("");
+//        ((EditText)findViewById(R.id.tsurname)).setText("");
+//        ((EditText)findViewById(R.id.tnrc)).setText("");
+//        ((EditText)findViewById(R.id.tphoneNumber)).setText("");
     }
 
     public void ProcessData(final View view){
         //we show that someone ate the forbidden fruit
         MainClassBody currentRecord = new MainClassBody();
-        currentRecord.firstName = ((EditText)findViewById(R.id.tfirstName)).getText().toString();
-        currentRecord.surName = ((EditText)findViewById(R.id.tsurname)).getText().toString();
-        currentRecord.nrc = ((EditText)findViewById(R.id.tnrc)).getText().toString();
-        currentRecord.phoneNumber = ((EditText)findViewById(R.id.tphoneNumber)).getText().toString();
+//        currentRecord.firstName = ((EditText)findViewById(R.id.tfirstName)).getText().toString();
+//        currentRecord.surName = ((EditText)findViewById(R.id.tsurname)).getText().toString();
+//        currentRecord.nrc = ((EditText)findViewById(R.id.tnrc)).getText().toString();
+//        currentRecord.phoneNumber = ((EditText)findViewById(R.id.tphoneNumber)).getText().toString();
         String asJson="";
 
         try{
