@@ -3,13 +3,8 @@
     <string name="action_settings">Settings</string>
     <string name="DoNotPressText">Do not Press This</string>
     <string name="DoNotPressEvent">youPressed</string>
-    <string name="EnterNRC">Enter you NRC</string>
-    <string name="defaultLabel">Please fill in the details below</string>
-    <string name="EnterNRCName">teditEnterNrc</string>
-    <string name="firstNameLabel">First Name</string>
-    <string name="SurnameLabel">Surname</string>
-    <string name="phoneNumber">Cell e.g. 09xx</string>
 
+    <string name="defaultLabel">Please fill in the details below</string>
 
     <string name="saveLabel">Save</string>
     <string name="clearAndStartOver">Clear All</string>
@@ -17,125 +12,39 @@
     <string name="saveMethod">saveData</string>
     <string name="clearAndStartOverMethod">clearAndStartOver</string>
 
+    <!-- Field names and their clean system names follow -->
+    <string name="service_location_details_hdr">service_location_details_hdr</string>
+    <string name="data_entry_date">data_entry_date</string>
+    <string name="data_entered_by">data_entered_by</string>
+    <string name="province">province</string>
+    <string name="district">district</string>
+    <string name="facility_name">facility_name</string>
+    <string name="outreach_name">outreach_name</string>
+    <string name="facility_type">facility_type</string>
+    <string name="client_information_hdr">client_information_hdr</string>
+    <string name="registration_hdr">registration_hdr</string>
+    <string name="mc_number">mc_number</string>
+    <string name="registration_date">registration_date</string>
+    <string name="last_name">last_name</string>
+    <string name="first_name">first_name</string>
+    <!-- end of field names -->
 
+
+    <!-- Label Names follow from here -->
+    <string name="lbl_service_location_details_hdr">Service Location Details</string>
+    <string name="lbl_data_entry_date">Date of Data Entry</string>
+    <string name="lbl_data_entered_by">Data Entry By</string>
     <string name="lbl_province">Province</string>
     <string name="lbl_district">District</string>
-    <string name="lbl_facilityname">FacilityName</string>
-    <string name="lbl_outreach_name_if_site_is_not_a_health_center">Outreach Name (if site is not a health center)</string>
-    <string name="lbl_client_id">Client ID</string>
+    <string name="lbl_facility_name">Facility Name</string>
+    <string name="lbl_outreach_name">Outreach Name</string>
+    <string name="lbl_facility_type">Outreach Name (if site is not a health center)</string>
+    <string name="lbl_client_information_hdr">A. CLIENT INFORMATION </string>
+    <string name="lbl_registration_hdr">Registration</string>
+    <string name="lbl_mc_number">Client ID</string>
     <string name="lbl_registration_date">Registration Date</string>
-    <string name="lbl_client_last_name">Client Last Name</string>
-    <string name="lbl_client_first_name">Client First Name</string>
-    <string name="lbl_date_of_birth">Date of Birth</string>
-
-    <string name="lbl_age">Age</string>
-    <string name="lbl_age_units">Age Units</string>
-    <string name="lbl_nrc__passport">NRC / Passport</string>
-
-    <string name="lbl_contact_phone_nummber">Contact Phone Nummber</string>
-    <string name="lbl_next_of_kin_names">Next of Kin Names</string>
-    <string name="lbl_next_of_kin_phone_nunber">Next of Kin Phone Nunber</string>
-    <string name="lbl_tribe">Tribe</string>
-    <string name="lbl_religion">Religion</string>
-    <string name="lbl_if_other_religion_specify">If Other Religion, Specify</string>
-    <string name="lbl_house__plot_no">House / Plot No</string>
-    <string name="lbl_street">Street</string>
-    <string name="lbl_township">Township</string>
-    <string name="lbl_if_rural_village">If Rural, Village</string>
-    <string name="lbl_chief">Chief</string>
-    <string name="lbl_marital_status">Marital Status</string>
-    <string name="lbl_primary_reasons_for_seeking_circumcision_services">Primary reasons for seeking circumcision services</string>
-
-    <string name="lbl_how_did_the_client_learn_that_mc_service_is_offered_here">How did the client learn that MC service is offered here</string>
-    <string name="lbl_services_offered">Services offered</string>
-
-    <string name="lbl_hiv_test_result_if_tested">HIV Test Result (if tested)</string>
-    <string name="lbl_informed_consent">Informed Consent</string>
-    <string name="lbl_known_status_with_evidence">Known Status  (with evidence)</string>
-    <string name="lbl_did_client_have_sexual_intercourse_in_the_past_3_months">Did client have sexual intercourse in the past 3 months</string>
-    <string name="lbl_did_client_use_a_condom">Did Client use a condom</string>
-    <string name="lbl_does_client_have_any_of_these_conditions">Does client have any of these conditions?</string>
-    <string name="lbl_do_other_members_of_the_family_have_bleeding_problems">Do other members of the family have Bleeding problems</string>
-    <string name="lbl_has_client_had_any_surgical_operation">Has client had any surgical operation</string>
-    <string name="lbl_has_client_had_any_surgical_operation_specify">Has client had any surgical operation, specify</string>
-
-    <string name="lbl_has_client_had_any_surgical_operation_complications">Has client had any surgical operation, Complications</string>
-
-    <string name="lbl_is_client_allergic_to_any_medications">Is Client allergic to any medications</string>
-    <string name="lbl_is_client_allergic_to_any_medications_specify">Is Client allergic to any medications, specify</string>
-    <string name="lbl_is_client_currently_taking_medications">Is Client currently taking medications</string>
-    <string name="lbl_is_client_currently_taking_medications_specify">Is Client currently taking medications, Specify</string>
-    <string name="lbl_penile_discharge">Penile Discharge</string>
-    <string name="lbl_genital_sore_ulcer">Genital sore (Ulcer)</string>
-    <string name="lbl_pain_on_erection">Pain on erection</string>
-    <string name="lbl_swelling_of_the_scrotum">Swelling of the scrotum</string>
-    <string name="lbl_pain_on_urination">Pain on urination</string>
-    <string name="lbl_difficulty_in_retracting_foreskin">Difficulty in retracting foreskin</string>
-    <string name="lbl_frequent_urination">Frequent Urination</string>
-    <string name="lbl_other">Other</string>
-    <string name="lbl_symptom_other_symptom_specified">Symptom - Other symptom specified</string>
-    <string name="lbl_was_client_treated_for_any_stis_in_the_last_3_months">Was client treated for any STIs in the last 3 months</string>
-    <string name="lbl_pallor">Pallor</string>
-    <string name="lbl_jaundice">Jaundice</string>
-    <string name="lbl_leg_oedema">Leg Oedema</string>
-    <string name="lbl_weight_kg">Weight (Kg)</string>
-
-    <string name="lbl_pulse_rate_beats_min">Pulse Rate (beats/min)</string>
-    <string name="lbl_temperature">Temperature</string>
-    <string name="lbl_bp_systolic">BP - Systolic</string>
-    <string name="lbl_bp_diastolic">BP - Diastolic</string>
-    <string name="lbl_genital_examination_scrotum">Genital Examination - Scrotum</string>
-    <string name="lbl_genital_examination_lymph_nodes">Genital Examination - Lymph Nodes</string>
-    <string name="lbl_genital_examination_penis">Genital Examination - Penis</string>
-
-    <string name="lbl_if_penis_is_abnormal_tick_appropriate_condition">If penis is abnormal, Tick appropriate condition</string>
-    <string name="lbl_other_abnormal_penis_condition">Other abnormal penis condition</string>
-    <string name="lbl_referred_to">Referred to</string>
-    <string name="lbl_reasons_for_referral">Reasons for referral</string>
-    <string name="lbl_reasons_for_referral_other_medical_condtitions">Reasons for referral, Other medical condtitions</string>
-    <string name="lbl_mc_provider">MC Provider</string>
-    <string name="lbl_mc_date">MC Date</string>
-    <string name="lbl_assistant">Assistant</string>
-    <string name="lbl_circumcision_performed">Circumcision Performed</string>
-    <string name="lbl_start_time_">Start Time: </string>
-    <string name="lbl_end_time_">End Time:  </string>
-
-    <string name="lbl_skin_preparation">Skin Preparation</string>
-    <string name="lbl_skin_preparation_other">Skin Preparation, Other</string>
-    <string name="lbl_local_anaesthesia">Local Anaesthesia</string>
-    <string name="lbl_lignocaine_concentration">Lignocaine Concentration</string>
-
-    <string name="lbl_local_anaesthesia_amount">Local Anaesthesia - Amount</string>
-    <string name="lbl_local_anaesthesia_type">Local Anaesthesia - Type</string>
-
-
-    <string name="lbl_type_of_procedure">Type of Procedure</string>
-    <string name="lbl_if_other_specify">If Other, Specify</string>
-
-
-    <string name="lbl_suture">Suture</string>
-
-    <string name="lbl_any_complications_during_surgery">Any Complications during surgery</string>
-    <string name="lbl_pain">Pain</string>
-    <string name="lbl_excessive_bleeding">Excessive Bleeding</string>
-    <string name="lbl_anaesthetic_related_event">Anaesthetic related event</string>
-    <string name="lbl_excessive_skin_removed">Excessive skin removed</string>
-    <string name="lbl_damage_to_the_penis">Damage to the penis</string>
-
-
-    <string name="lbl_complications_during_surgery_other">Complications during surgery, Other</string>
-    <string name="lbl_a">a</string>
-
-    <string name="lbl_b">b</string>
-    <string name="lbl_c">c</string>
-    <string name="lbl_d">d</string>
-    <string name="lbl_e">e</string>
-    <string name="lbl_f">f</string>
-    <string name="lbl_g">g</string>
-    <string name="lbl_h">h</string>
-    <string name="lbl_i">i</string>
-    <string name="lbl_j">j</string>
-    <string name="lbl_k">k</string>
-    <string name="lbl_l">l</string>
+    <string name="lbl_last_name">Client Last Name</string>
+    <string name="lbl_first_name">Client First Name</string>
+    <!-- end of label names -->
 
 </resources>
