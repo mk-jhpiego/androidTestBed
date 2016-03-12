@@ -153,4 +153,8 @@ public class DoNotEat extends AppCompatActivity {
             }
         }
     }
+
+    //https://examples.javacodegeeks.com/android/core/ui/webview/android-webview-example/
+    //http://developer.android.com/guide/webapps/webview.html
+    //http://www.tutorialspoint.com/android/android_webview_layout.htm
 }
